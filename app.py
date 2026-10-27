@@ -1,4 +1,4 @@
-```python
+
 import ast
 import zipfile
 from pathlib import Path
@@ -128,4 +128,3 @@ if st.button("🍿 Recommend Movies"):
         with column:
             st.markdown("### 🎬")
             st.write(newdf.iloc[index]["title"])
-```
